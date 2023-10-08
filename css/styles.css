@@ -377,6 +377,7 @@ background-color: #2E2F42;
     padding: 0 15px 0 15px;  
     display: flex;
 align-items: baseline;
+position: relative;
 }
 .footer-container-left {
     margin-right: 120px;
@@ -410,4 +411,46 @@ background-color: #31D0AA;
     width: 24px;
     height: 24px;
     fill: #F4F4FD ;
+}
+.footer-modal {
+    display: flex;
+    gap: 24px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.footer-label {
+    /* position: absolute; */
+
+
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 80px; */
+    /* position: absolute; */
+    /* bottom: 0;
+    right: 0; */
+
+}
+.footer-button {
+    color: #FFF;
+text-align: center;
+/* Button Text */
+/* font-size: 16px; */
+font-weight: 500;
+line-height: 1.5 ; 
+letter-spacing: 0.04em;
+display: inline-flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 4px;
+background:#4D5AE5;
+}
+.footer-button-icon {
+    fill: #FFF;
 }
